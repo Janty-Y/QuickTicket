@@ -1,0 +1,161 @@
+main {
+  min-height: 100vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  background-color: rgba(230, 225, 219, 0.836);
+  word-break: break-word;
+}
+
+body {
+  background-color: #323232;
+  overflow-y: hidden;
+}
+
+.footerColor {
+  background-color: #323232;
+  color: white;
+  position: sticky;
+  bottom: 0;
+}
+
+.toBottom {
+  position: sticky;
+  bottom: 0;
+  height: auto;
+}
+
+.fixFAS {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 82vh;
+}
+
+.aboutScrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 82vh;
+}
+
+.noteScrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 10vh;
+  max-height: 25vh;
+}
+
+.historyScrollable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 15vh;
+  background-color: rgba(250, 239, 238, 0.712);
+}
+
+.headRow {
+  background-color: #616266f8;
+  font-weight: 900;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+}
+
+.ticketDetailsColor {
+  background-color: rgba(230, 225, 219, 0.836);
+  color: #000;
+}
+
+.cycleGrey {
+  background-color: rgba(238, 238, 237, 0.89);
+  border: 1px dotted rgb(83, 83, 235);
+  margin-top: 10px;
+}
+
+.cycleBlue {
+  background-color: rgba(229, 244, 248, 0.733);
+  margin-top: 10px;
+}
+
+.ticketDescription {
+  background-color: rgba(229, 244, 248, 0.521);
+  margin-top: 10px;
+  margin-bottom: 50px;
+  border: 1px inset rgb(221, 219, 245);
+}
+
+.bottomBorder {
+  border-bottom: 1px dotted rgb(144, 151, 170);
+}
+
+.activeTicket {
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(192, 183, 170, 0.795);
+  border-radius: 2rem;
+}
+
+.nullTicketBG {
+  color: #2f2f361f;
+}
+
+.aboutContainer {
+  border: 3px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.searchContainer {
+  border: 3px solid rgb(0, 0, 0);
+  background-color: rgb(236, 236, 236);
+  border-radius: 2rem;
+  margin-top: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.aboutMessage {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+}
+
+.ticketDetailsHeader {
+  color: #000;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(217, 214, 226, 0.938);
+  border-radius: 2rem;
+  height: 40px;
+}
+
+.noteRow {
+  background-color: rgb(243, 243, 227);
+  border-bottom: 1px solid rgb(187, 187, 197);
+}
+
+.loginContainer {
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgb(156, 152, 152);
+}
+
+.loginFields {
+  background-color: #5f5a5a;
+  color: '#fff';
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.historyRow {
+  background-color: rgba(250, 239, 238, 0.712);
+  border-bottom: 1px dotted rgb(17, 17, 17);
+}
